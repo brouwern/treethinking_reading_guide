@@ -1,0 +1,113 @@
+# "Reading guide Chapter 1: Phylogenetic trees & their importance in modern biology" {#ch1}
+
+## Chapter commentary {-}
+
+
+
+## Vocab summary
+
+tree thinking
+phylogenetic tree
+phylogeny
+traits
+Great Chain of Being
+common ancestor
+homologous trait
+analogous trait
+taxa
+taxon
+scientific inference
+
+## Course notes
+
+1. All sections of this chapter should be read.
+1. None of the figures in this chapter are particularly important.
+1. Note: references within this guide are not formatted correctly.
+
+## (Introduction)
+
+**tree thinking**
+
+## The importance of phylogenetic trees
+
+**phylogenetic tree**
+**phylogeny**
+**traits**
+**[Great Chain of Being]**
+
+## From individuals to populations to species
+
+**common ancestor**
+
+
+## Visualizing & modeling how traits evolve
+
+**homologous trait**
+**analogous trait**
+
+## Understanding what it means to be related
+
+**taxa**
+**taxon**
+
+
+## Organizing knowledge of biological diversity
+
+**[biological diversity]**
+
+
+### Related references
+
+Below are references related to how phylogenetic trees can be used to organize information about biological diversity and inform further research.
+
+#### Parasite phylogenetics and diversity
+
+Waters et al 1993.  The Phylogeny of malaria: A useful study. Parasitology Today
+
+Brooks & Hoberg. 2001. Parasite systematics in the 21st century: opportunities and obstacles.  Trends in Parasitology.
+
+de Meeus and Renaud.  2002. Parasites within the new phylogeny of eukaryotes.  Trends in Parasitology. 
+
+Jalovecka et al 2019. Policy, phylogeny, and the parasite *Babesia* Life Cycle – When Phylogeny Meets Biology.  Tends in Parasitology.
+
+
+## Reconstructing history
+
+
+### Related references 
+
+Below are references to papers that use phylogenies to reconstruct historical events.
+
+#### Epidemology:The SARS epidemic
+He et a. 2004.  Molecular Evolution of the SARS Coronavirus During the Course of the SARS Epidemic in China. Science
+
+Lau et al 2009.  Severe acute respiratory syndrome coronavirus-like virus in Chinese horseshoe bats.  PNAS
+
+
+#### Protein evolution
+
+Harns and Thoron. 2013  Evolutionary biochemistry: revealing the historical and physical causes of protein properties.  Nature Review Genetics
+
+
+#### Origin of HIV
+
+Holmes 2001.  On the origin and evolution of the human
+immunodeficiency virus (HIV).  Biological Reviews.
+
+Sharp and Hahn 2010. The evolution of HIV-1 and the origin of AIDS.  PRSB.
+
+#### Criminology: Likely HIV transmision by a dentist
+
+Hillis and Huelsenbeck.  1994. Support for dental HIV transmission.  Nature
+
+
+#### Criminology: Identifying criminals
+
+Scadutoa et al.  2010. Source identification in two criminal cases using phylogenetic analysis of HIV-1 DNA sequences.  PNAS
+
+Metzker et al 2002.  Molecular evidence of HIV-1 transmission in a criminal case. PNAS
+
+
+## Tree thinking and biological literacy
+
+**scientific inference**

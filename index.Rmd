@@ -1,0 +1,39 @@
+--- 
+title: "A Reading Guide to Tree Thinking: An Introduction to phylogenetic Biology"
+author: "Nathan Brouwer"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: brouwern/treethinking_reading_guide
+description: "This is a reading guide to Baum and Smith's (2013) Tree Thinking: An introduction to phylogenetic biology"
+---
+
+# Preface to the study guide {-}
+
+This is a reading guide to David A. Baum and Stacy D. Smiths [Tree Thinking: An Introduction to Phylogenetic Biology](https://www.macmillanlearning.com/college/us/product/Tree-Thinking-An-Introduction-to-Phylogenetic-Biology/p/1936221160), 4th edition.  More information about the book can be found at the [book's website](https://www.macmillanlearning.com/college/us/product/Tree-Thinking-An-Introduction-to-Phylogenetic-Biology/p/1936221160), and it can be purchased from [Amazon.com](https://www.amazon.com/Tree-Thinking-Introduction-Phylogenetic-Biology/dp/1936221160).  
+
+*Tree Thinking* is a fabulous book for students researchers that need to understand or do basic phylogenetics  and either need a concise primer on the key issues 
+
+This reading guide serves several purposes:
+
+* Highlight the parts of the book I focus on in my teaching (and so will be on any tests!)
+* Indicate key vocab
+* Provide additional complementary examples
+* Provide citations and links to resources for follow-up
+
+Each part of the reading guide is essentially an outline of each chapter with commentary as needed. In some cases I have written a brief initial commentary to put the chapter in context.  
+
+My most important notes and comments are generally in **bold** or bulleted.  When I've riffed on an idea and its not necessarily key I've usually put in in a block quote, like the one below:
+
+> For example, sometimes I've written about a section, and my text is almost as long as the original section!
+
+This is a work in progress and many sections are not yet annotated; feel free to contact me with suggestions or corrections.
+
+Nathan Brouwer
+brouwern@gmail.com
+
+
