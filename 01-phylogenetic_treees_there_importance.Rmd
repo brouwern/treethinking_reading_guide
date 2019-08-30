@@ -1,32 +1,47 @@
-# "DRAFT - Reading guide Preface / Ch 1: Phylogenetic trees & their importance in modern biology" {#ch1}
+# "Reading guide Preface / Ch 1: Phylogenetic trees & their importance in modern biology" {#ch1}
 
 ## Chapter commentary {-}
 
-This section contains information on both the Preface and Chapter 1.
+This section contains information on both the Preface AND Chapter 1.  Read the first 5 paragraphs of the preface and ALL of Chapter 1.
 
 
 ## Vocab summary
 
-tree thinking
-phylogenetic tree
-phylogeny
-traits
-Great Chain of Being
-common ancestor
-homologous trait
-analogous trait
-taxa
-taxon
-scientific inference
+Most of the key vocab from the chapter is compiled below.  
+
+* phylogenetic biology
+* tree thinking
+* phylogenetic tree
+* phylogeny
+* traits
+* common ancestor
+* homologous trait
+* analogous trait
+* taxa
+* taxon
+* scientific inference
 
 
-## Preface (pages xv and xvi)
+## PREFACE (pages xv and xvi)
+
+### Course notes
 
 Read the first 5 paragraphs
 
-## Chapter 1: Phylogenetic trees & their importance in modern biology 
+**phylogenetic biology**
 
-## Course notes
+They list several questions that phylogenetic biologists address.  Other questions (among many) include:
+
+* What was an ancestral protein like?  (eg, a protein in an extinct organism)
+* Which animal did a disease come from?
+* What is the evolutionary history of a gene? A protein?
+* Which genes are in a "gene family"
+
+Note: they say on page xvi that evolutionary trees are "no linear but branching and fractal, with one beginning and many...ends."  While this is true most of the time, the phenomena of **horizontal gene transfer** (aka **lateral gene transfer**) implies that phyolgenetic **networks** can exist, at least for bacteria, and some bacterial phylogeneies may have have more than one "beginning".  This is not discussed in this book but is an important topic in bacterial phylogenetics.  For some basic information on phylogenetic networks see wikipedia: https://en.wikipedia.org/wiki/Phylogenetic_network
+
+## CHAPTER 1: Phylogenetic trees & their importance in modern biology 
+
+### Course notes
 
 1. **All sections** of this chapter should be read.
 1. None of the figures in this chapter are particularly important.
@@ -37,30 +52,34 @@ Read the first 5 paragraphs
 
 **tree thinking**
 
-## The importance of phylogenetic trees
+## "The importance of phylogenetic trees"
 
 **phylogenetic tree**
 **phylogeny**
 **traits**
 **[Great Chain of Being]**
 
-## From individuals to populations to species
+This book talks about DNA sequences and proteins but also a lot about **morphological traits**.  As will be discussed later in the book, morphological traits often have two **states**: the presence or absence of something like sexual reproduction or live birth.  **Macromolecular sequences**, however, are traits that always have at multiple different states: DNA has 4 bases, RNA has 4 bases, and there are 20 amino acids.  A molecular sequence trait could be the first DNA base after a start codon, which could be one of four bases, or the amino acid after the start codon, which is a trait with 20 different possiblities.  
+
+## "From individuals to populations to species"
 
 **common ancestor**
 
+We typically think in terms of common ancestors as species. We can also think of them in terms of genes.
 
-## Visualizing & modeling how traits evolve
+
+## "Visualizing & modeling how traits evolve"
 
 **homologous trait**
 **analogous trait**
 
-## Understanding what it means to be related
+## "Understanding what it means to be related"
 
 **taxa**
 **taxon**
 
 
-## Organizing knowledge of biological diversity
+## "Organizing knowledge of biological diversity"
 
 **[biological diversity]**
 
@@ -80,7 +99,7 @@ de Meeus and Renaud.  2002. Parasites within the new phylogeny of eukaryotes.  T
 Jalovecka et al 2019. Policy, phylogeny, and the parasite *Babesia* Life Cycle – When Phylogeny Meets Biology.  Tends in Parasitology.
 
 
-## Reconstructing history
+## "Reconstructing history"
 
 
 ### Related references 
@@ -117,6 +136,6 @@ Scadutoa et al.  2010. Source identification in two criminal cases using phyloge
 Metzker et al 2002.  Molecular evidence of HIV-1 transmission in a criminal case. PNAS
 
 
-## Tree thinking and biological literacy
+## "Tree thinking and biological literacy"
 
 **scientific inference**
