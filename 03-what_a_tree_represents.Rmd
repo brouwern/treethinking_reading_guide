@@ -1,0 +1,172 @@
+# "DRAFT -Reading guide Chapter 3: What a phylogenetic tree represents" {#ch1}
+
+## Chapter commentary {-}
+
+## Notes
+
+* Key vocabulary are in bold below.  
+* Vocabulary that is good to be familiar with but is not essential is in in brackets [ ]
+* There are several sections of this chapter that can be skipped. 
+
+## Objectives
+
+After reading this chapter you should
+
+1. Understand how to interpret ancestor-descendent relationships on a tree
+1. Know when two trees have the same **topology**, even if they are drawn differently
+1. Know the names of the major features of trees (**root**, **branch**, **tips**, etc)
+1. Know how to identify **clades** on a tree
+1. Know that a tree is just an estimate of the true evolutionary history, and so we need to represent uncertainty in our estimate (Eg with **bootstrapping**)
+
+
+## (Introduction)
+
+## Continuity of reproduction from the population to the tree of life
+
+* **tips (of phylogenetic tree)**: know how to identify the tips, where they are, what they are for a given tree
+* **[pedigree]**
+* **[cladogenesis]**
+* **lineage splittig**
+* **[allopatric divergence]**
+* **[sympatric divergence]**
+
+**Figure2 3.1 to 3.5**: These figures are useful conceptually but you won't need to interpret figures like these
+
+**Figure 3.6:** You need to know that the orientation of the tree doesn't matter
+
+**Figure 3.7:** You need to know that these two ways of drawing a tree are equivalent.
+
+## Asexual organisms
+
+## Tree terminology and conventions
+
+* **branches (of phylogenetic tree)**: You should know what branches are, how they are draw, and what differences in branch lengths mean
+* **edges (of phylogenetic tree)**: I will mostly likely not use the term "edges", but it does appear in the literature and I is the formal name used by math folks.  If/when we talk about networks the term edges will become more important.
+* **directed (graph or tree)**: The terms **directed** and **acyclic** aren't very important too understanding phylogenetic trees, but these terms will also come back if/when we talk aboutnetworks.  Phylogenetic trees are **directed** because they represent a historical process and the passage of time.
+* **acyclic (graph or tree)**
+* **tips**: You should know what tips are and how they are drawn. I will call the ends of the tree "tips", thought you may encounter other terms in other sources.
+* **[leaves]**
+* **[terminals**]
+* **root**: You should know where the root of a tree is, or if a tree lacks a root (discussed laterin chapter)
+* **Nodes**: You should know where nodes areon a tree and know what they represent.
+* **linneage splitting event**: linneage splitting event result in genetic divergence.
+* **[internal branches]**
+* **[internodes]**
+* **[external branches]**: This term occurs in the literature but I will usually just refer generically to branches.
+* **clade**: You should be able to identify clades
+* **monophyly**: You should now whether a group is monopylyetic or not.
+* **sister group**: For a given tip, you should be able to identify its sister taxa.
+* **sister taxa**
+
+**Figure 3.9** is a very good figure for understanding tree terminology.  Tips, root, and branches are the most important terms.
+
+**Figure 3.10** is a classic illustration of a monophyletic groups versus a non-monophyloetic group.  Similar figures can also be found on the internet, eg Wikipedia.
+
+## Tree topology
+
+* **branching order (of phylogenetic tree)**
+* **topology (of phylogenetic tree)**: You should be able to determine if two trees have the same toplogy or not
+
+**Figure 3.11** is important for understanding how trees can be roteated without impacting their topology.  
+
+**Note:** I do not (currently) use the "splits** format referred to on page 46.
+
+## Different tree styles
+
+**Goal**: You should be able to interpret trees in all their shapes and formats.
+
+* **[diagonal phylogenetic tree]**
+* **[rectangular phylogenetic tree]**
+* **[circle phylogenetic tree]**
+
+**Figure 3.15** is important for seeing how different shapes and formats of trees can all have the same toplogy.
+
+## Merging and pruning
+
+* **[pruning (a phylogenetic tree)]**
+* **[merging (a phylogeneitc tree)]**
+
+The concept of merging will become relevant when we talk about "distance-based" methods of phylogenetic tree reconstruction.  Merging is involved in the algorithm for building these types of trees.
+
+## The time axis
+
+**[chronogram]**
+**[cladogram]**
+
+Fossils are very important for establishing dates.  We won't spend much time talking about fossils; instead, we will talk about the use of molecular clock methods.  These methods, however, have important limitations.  The best way to add dates to tree is to use fossils.
+
+### Related papers
+
+Quental and Marshall.  2010.  Diversity dynamics: molecular phylogenies need the fossil record.  Trends in Ecology and Evolution.
+
+
+
+## Branch lengths & evolutionary rate
+
+**branch lengths (of phylogenetic tree**)
+**[phylograms]**
+
+Branch lengths and how they are estiamted will be a very important consideration when we begin building phylogenies using mathematical models such as distance-based methods and maximum likelihood. In contrast, the  parsimony methods some people learn in intro biology and evoution classes preclude consideration of branch lengths.
+
+
+## Communicating phylogenetic uncertainty
+
+**[binary tree]**
+**[ancestral linneage]**
+**[descendant linneage]**
+**dichotomous tree**
+**[fully resolved phylogenetic tree]**
+**polytomy**
+**[hard polytomy]**
+**[soft polytomy]**
+**consensus tree**
+**[input tree]**
+**strict consensus tree**
+
+
+### (Consensus trees)
+
+The section on consensus trees is important for being able to interpret published trees.  Looking at a tree you should be able to identify if there are polytomies, know what they imply, and determine from information in the paper why it is there.
+
+If time allows we will discuss how consensus trees are built; several key types of algorithms and computational techniques are used to build them  (Sul and Williams 2011).
+
+### Related papers
+
+Sul and Williams.  2011. Big cat phylogenies, consensus trees, and computational thinking.  Journal of Computational Biology
+
+
+### (Characterizing uncertainty)
+
+**boostrap percentages**
+**boostrap scores**
+**posterior probabilities**
+**[clade credibilities**]
+
+This section is very important.  We will discuss the computational details of bootstrapping and the interpretation of uncertainty measures.
+
+
+## Unrooted trees
+
+**[rooted tree]**
+**[unrooted tree]**
+**bipartitions**
+**outgroup**
+**molecular clock**
+
+
+
+## Tree-to-tree distances
+
+This section is optional.
+
+## Chapter 3 Quiz
+
+### Intro bio
+
+1, 3, 4, 5, 7, 10, 11, 13
+
+### Computational biology
+
+17, 18, 19
+
+

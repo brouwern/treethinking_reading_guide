@@ -1,0 +1,65 @@
+# "DRAFT - Reading guide Chapter 2: Tree thinking & its importance in the development of evolutionary thought" {#ch1}
+
+## Chapter commentary {-}
+
+NOTE: this chapter has NOT been assigned as of 8/30/2019
+
+## Vocab summary
+
+## Notes
+
+No figures or tables in this chapter require particular attention.
+
+## (Introduction)
+
+**ladder thinking**
+
+## Before Charles Darwin
+
+This section is optional.
+
+## Charles Darwin's role in the development of tree thinking
+
+**common ancestry**
+
+## Evidence for evolution and common ancestry
+
+**separate ancestry**
+**homologous features**
+**transitional fossils**
+**nested structure**
+**hiearchical structure**
+**consisteny index (CI)**
+
+
+## The emergence of phylogenetic systematics
+
+**common descent**
+**phyletic series**
+**phylogenetic systematics**
+
+
+
+## Vestiges of ladder thinking in the popular understanding of evolution
+
+
+## Chapter 2 Quiz
+
+General biology questions:
+1, 2, 10, 12, 13, 14
+
+Computational biology questions:
+9
+
+Interesting questions:
+3, 6, 7, 15
+
+## Further reading
+
+Similar ideas are discussed in these papers:
+
+Baum et al. The tree-thinking challenge.  Science
+
+Baum and Offner.  2008.  Phylogenics & tree-thinking.  American Biology Teacher
+
+

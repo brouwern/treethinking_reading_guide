@@ -1,7 +1,8 @@
-# "Reading guide Chapter 1: Phylogenetic trees & their importance in modern biology" {#ch1}
+# "DRAFT - Reading guide Preface / Ch 1: Phylogenetic trees & their importance in modern biology" {#ch1}
 
 ## Chapter commentary {-}
 
+This section contains information on both the Preface and Chapter 1.
 
 
 ## Vocab summary
@@ -18,11 +19,19 @@ taxa
 taxon
 scientific inference
 
+
+## Preface (pages xv and xvi)
+
+Read the first 5 paragraphs
+
+## Chapter 1: Phylogenetic trees & their importance in modern biology 
+
 ## Course notes
 
-1. All sections of this chapter should be read.
+1. **All sections** of this chapter should be read.
 1. None of the figures in this chapter are particularly important.
 1. Note: references within this guide are not formatted correctly.
+
 
 ## (Introduction)
 

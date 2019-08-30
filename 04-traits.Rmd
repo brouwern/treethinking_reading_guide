@@ -1,0 +1,116 @@
+# "DRAFT - Reading guide Chapter 4: Trait Evolution" {#ch1}
+
+## Chapter commentary {-}
+
+NOTE: this chapter has NOT been assigned as of 8/30/2019
+
+
+## (Introductin)
+
+**traits**
+**characters**
+[**characteristics**]
+[**phenotypes**]
+
+
+I will usually use the term "trait", though "characters" is probably more common in the phylogenetics literature.
+
+## Trait evolution in a single lineage
+
+**ancestral allele**
+**derived allele**
+**[genetic drift]**
+**[reverse mutation]**
+**[heritability]**
+
+*"Geographic location is a heritable trait"* (page 79): This is not something I emphasize.  
+
+
+## Trait evolution in a branching lineage
+
+
+**character state**
+
+For morphological characters the difference between **character** and **character state** is important.  Translated to molecular data, each position in a genome is a character, and the particular type of base (A, T, C or G) is the character state.
+
+
+## Ancestral & derived character states
+
+**plesiomorphies**
+**apomorphies**
+**[synapomorphies]**
+**[symplesiomorphies]**
+**[character polarity]** 
+**[polarizing character states]**
+
+I will rarely use the terms **plesiomorphy** or **apmorophy**.  HOwever, they are commmon in the literature so it is important to be familiar with them.
+
+## The evolution of DNA sequences
+
+This section is very important.  Future chapters will cover mathematical models of sequence evolution in detail.
+
+## An introduction to homology
+
+**homologous**
+**homology**
+**convergence**
+**reversal**
+
+### Further reading
+
+Thorton and Desalle 2000.  Gene family evolution and homology: Genomics Meets Phylogenetics.  Ann Revs Genomics Human Genetics
+
+Li and Godzik.  2002.  Discovering new genes with advanced homology detection.  Trends in Biotechnology.
+
+Aouacheria et al.  2013.  Evolution of Bcl-2 homology (BH) motifs – homology versus homoplasy. Trends in Cell Biology.
+
+Rokas and Carroll.  2008.  Frequent and Widespread Parallel Evolution of Protein Sequences  MOlecular BIology and evolution.
+
+Rogozin.  2008. Homoplasy in genome-wide analysis of rare amino acid replacements: the molecular-evolutionary basis for Vavilov's law of homologous series
+
+**Figure 4.5** is a very important figure to understand.
+
+**Figure 4.6** shows that the basic idea of homology isn't that complicated.  NOte that the "Spur" is the little grey thingy sticking off the bottomo f the flower.
+
+**FIgure 4.7** shows convergence.  It might help to draw a line on the branches where the trait of spurs evolved in each linneage.  Since spurs developed seperately in each clade, they are not homologous.
+
+**Figure 4.8** might be a little confusing.  Key to understanding it is to note that that the clade which "D" is part of lost the spur trait.  Spurs then evolved again in D.  The spurs in D are not homologous to the other spurs because they have separate evolutionary origins.
+
+Homology is a key topic in phylogenetics and we will revisit.
+
+Note: Sometimes you will see people refer to "percent homology" in reference to sequences  (Inkpen and Doolittle 2016).  Homology is a binary condition; a gene or a trait in two organism can either be traced back to a common ancestory and are homologous or are not.  THere is therefore no partial homology.
+
+### Further reading
+
+Inkpen and Doolittle 2016.  Molecular Phylogenetics and the Perennial Problem of Homology. Journal of molecular evolution.  
+
+
+## Homplasy and consistency
+
+**[Homoplasy]**
+**[Consistency] (versus homoplasy)**
+
+
+## Parsimony as a way to infer history of traits
+
+**inference**
+**parsimony**
+
+This is a very important section.  We will talk about parsimony indepth as a way to understand how algorithms can be used to build phylogenetic trees.  While it still has its uses for morphological data, parasimony it not used much for molecular data.
+
+### Further reading
+
+Stewart 1993.  Nature The powers and pitfalls of parsimony.  Nature.
+
+**Figures 4.10, 4.11 and 4.12** are  very important.
+
+## Chapter quiz
+
+### Intro bio
+
+1, 5, 6, 7, 10, 11
+
+### Computational biology
+
+13
+
