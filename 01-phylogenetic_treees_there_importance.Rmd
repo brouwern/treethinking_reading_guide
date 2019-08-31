@@ -2,42 +2,47 @@
 
 ## Chapter commentary {-}
 
-This section contains information on both the Preface AND Chapter 1.  Read the first 5 paragraphs of the preface and ALL of Chapter 1.
+* This section contains information on both the Preface AND Chapter 1. 
+* Read the first 5 paragraphs of the preface and ALL of Chapter 1.
+* Key vocabulary are in **bold** below.  
+* Vocabulary that is good to be familiar with but is not essential is in in brackets [ ]
 
 
 ## Vocab summary
 
 Most of the key vocab from the chapter is compiled below.  
 
-* phylogenetic biology
-* tree thinking
-* phylogenetic tree
-* phylogeny
-* traits
-* common ancestor
-* homologous trait
-* analogous trait
-* taxa
-* taxon
-* scientific inference
+* **phylogenetic tree**
+* **phylogeny**
+* **traits**
+* **common ancestor**
+* **homologous trait**
+* **analogous trait**
+* **taxa**
+* **taxon**
+* **scientific inference**
 
 
 ## PREFACE (pages xv and xvi)
 
 ### Course notes
 
-Read the first 5 paragraphs
+**Read the first 5 paragraphs of the preface**
 
-**phylogenetic biology**
+**phylogenetic biology**: usually referred to as **phylogenetics**.
 
-They list several questions that phylogenetic biologists address.  Other questions (among many) include:
+The term "phylogenetic" can be used as a modifier in many situations: "phylogenetic biology" is the use of phylogenetics to answer biological question, "phylogenetic analysis" is the analysis of phylogenies or their use in other analyses, a "phylogenetic question" is a question relating to the ancestry and patterns of evolution of an organism or genes, a "phylogenetic debate" is a debate about the origin or ancestry of organisms or genes..
+
+On page xv Baum and Smith list several questions that phylogenetic biologists address.  Other questions (among many) include:
 
 * What was an ancestral protein like?  (eg, a protein in an extinct organism)
 * Which animal did a disease come from?
 * What is the evolutionary history of a gene? A protein?
 * Which genes are in a "gene family"
 
-Note: they say on page xvi that evolutionary trees are "no linear but branching and fractal, with one beginning and many...ends."  While this is true most of the time, the phenomena of **horizontal gene transfer** (aka **lateral gene transfer**) implies that phyolgenetic **networks** can exist, at least for bacteria, and some bacterial phylogeneies may have have more than one "beginning".  This is not discussed in this book but is an important topic in bacterial phylogenetics.  For some basic information on phylogenetic networks see wikipedia: https://en.wikipedia.org/wiki/Phylogenetic_network
+On page xvi Baum and Smith say that evolutionary trees are "not linear but branching and fractal, with one beginning and many...ends."  While this is true for most organisms most of the time, the phenomena of **horizontal gene transfer** (aka **lateral gene transfer**) implies that phylogenetic **networks** can exist, at least for bacteria, and some bacterial phylogenies may have have more than one "beginning".  This is not discussed in this book but is an important topic in bacterial phylogenetics.  For some basic information on phylogenetic networks see wikipedia: https://en.wikipedia.org/wiki/Phylogenetic_network
+
+
 
 ## CHAPTER 1: Phylogenetic trees & their importance in modern biology 
 
@@ -50,7 +55,7 @@ Note: they say on page xvi that evolutionary trees are "no linear but branching 
 
 ## (Introduction)
 
-**tree thinking**
+**[tree thinking]**
 
 ## "The importance of phylogenetic trees"
 
@@ -59,19 +64,29 @@ Note: they say on page xvi that evolutionary trees are "no linear but branching 
 **traits**
 **[Great Chain of Being]**
 
-This book talks about DNA sequences and proteins but also a lot about **morphological traits**.  As will be discussed later in the book, morphological traits often have two **states**: the presence or absence of something like sexual reproduction or live birth.  **Macromolecular sequences**, however, are traits that always have at multiple different states: DNA has 4 bases, RNA has 4 bases, and there are 20 amino acids.  A molecular sequence trait could be the first DNA base after a start codon, which could be one of four bases, or the amino acid after the start codon, which is a trait with 20 different possiblities.  
+This book talks about DNA sequences and proteins but also a lot about **morphological traits**.  As will be discussed later in the book, morphological traits often have two **states**: the presence or absence of something like sexual reproduction or live birth.  **Macromolecular sequences**, however, are traits that always have at multiple different states: DNA has 4 bases, RNA has 4 bases, and there are 20 amino acids.  A molecular sequence trait could be the first DNA base after a start codon, which could be one of four bases, or the amino acid after the start codon, which is a trait with 20 different possibilities.  
 
 ## "From individuals to populations to species"
 
 **common ancestor**
 
-We typically think in terms of common ancestors as species. We can also think of them in terms of genes.
+We typically think in terms of common ancestors as species. We can also think of them in terms of genes when we look at gene families, gene duplications, orthologs and paralogs.  These terms will be defined in later chapters.
 
 
 ## "Visualizing & modeling how traits evolve"
 
 **homologous trait**
 **analogous trait**
+
+You should be able to characterize traits - especially macromolecular traits - as either homologous or analogous. 
+
+See if you can fill in the blanks here: "________, in biology, similarity of function and superficial resemblance of structures that have different origins. For example, the wings of a fly, a moth, and a bird are _______ because they developed independently as adaptations to a common functionâ€”flying."  And "______, in biology, similarity of the structure, physiology, or development of different species of organisms based upon their descent from a common evolutionary ancestor." 
+
+See the answers at https://www.britannica.com/science/homology-evolution and https://www.britannica.com/science/analogy-evolution and 
+
+For definitions of homology and related terms see: http://pevsnerlab.kennedykrieger.org/wiley/appendix.htm#H
+
+For macromolecular sequences there are two types of homology: orthology and parology.  These will be discussed in future chapters.
 
 ## "Understanding what it means to be related"
 
@@ -86,7 +101,7 @@ We typically think in terms of common ancestors as species. We can also think of
 
 ### Related references
 
-Below are references related to how phylogenetic trees can be used to organize information about biological diversity and inform further research.
+Below are references related to how phylogenetic trees can be used to organize information about biological diversity and inform further research.  Read over these to get a sense for the scope and applications of phylogenetics.  These references are *not* formatted properly.
 
 #### Parasite phylogenetics and diversity
 
@@ -101,12 +116,13 @@ Jalovecka et al 2019. Policy, phylogeny, and the parasite *Babesia* Life Cycle â
 
 ## "Reconstructing history"
 
+Phylogenetics can be used to reconstruct the evolutionary history of, among other things, organisms, groups of organisms and genes.
 
 ### Related references 
 
-Below are references to papers that use phylogenies to reconstruct historical events.
+Below are references to papers that use phylogenies to reconstruct historical events.  Read over these to get a sense for the scope and applications of phylogenetics.  These references are *not* formatted properly.
 
-#### Epidemology:The SARS epidemic
+#### Epidemiology: The SARS epidemic
 He et a. 2004.  Molecular Evolution of the SARS Coronavirus During the Course of the SARS Epidemic in China. Science
 
 Lau et al 2009.  Severe acute respiratory syndrome coronavirus-like virus in Chinese horseshoe bats.  PNAS
@@ -124,7 +140,7 @@ immunodeficiency virus (HIV).  Biological Reviews.
 
 Sharp and Hahn 2010. The evolution of HIV-1 and the origin of AIDS.  PRSB.
 
-#### Criminology: Likely HIV transmision by a dentist
+#### Criminology: Likely HIV transmission by a dentist
 
 Hillis and Huelsenbeck.  1994. Support for dental HIV transmission.  Nature
 
@@ -138,4 +154,13 @@ Metzker et al 2002.  Molecular evidence of HIV-1 transmission in a criminal case
 
 ## "Tree thinking and biological literacy"
 
+**inference**
 **scientific inference**
+
+A standard dictionary definition of **inference** is "a conclusion reached on the basis of evidence and reasoning."  Often it involves moving from a set of particular observations to make more general conclusions about how the world works.  For example, say that in a clinical trial with 100 patients, a drug reduces the risk of heart attack in by 10%.  What the experiment has directly shown is only that when these 100 patients received the drug at the particular time and place the experiment was conducted, risk went down by 10%.  That's all.  However, if the patients are reasonably representative of a larger population, then we can infer that most patients should improve by 10%.  This is a bit of a leap of faith and requires a lot of assumptions, but frequently science operates with limited times frames and budgets, and so we have to make inference based on the usually limited data at hand.
+
+An example I like to use for inference is from a recent archaeology paper (Radini et al 2019, Science Advances).  Archaeology, paleontology, geology, phylogenetics, and much of evolutionary biology rely heavily on inference because they work on phenomena from the past which cannot be observed. Based on available artifacts - bones, DNA sequences, rocks - these scientists can infer what happened.  Radini et al (2019) were studying bones from the middle ages.  They found a unique mineral, lapiz lazuli, stuck in the plaque on the teeth of a woman's skull. Lapiz lazuli is a rare mineral used in medieval artwork, particularly the ornately drawn parts of books. Scribes and artists were usually assumed to be men (monks). But since Radini et al (2019) found a mineral used in artwork in the teeth of a woman, they can infer that she was an artist, because artists frequently wet their paint brushes in their mouths, creating the opportunity to get stuck to their teeth.  Radini et al. obviously have no direct observations of this woman painting illuminated manuscripts, and know very little about her except what they can tell from her bones.  Buts its a highly logical step to take that this woman was an artists; that is, its a reasonable inference. 
+
+Computational biology, bioinformatics, and phylogenetics all rely heavily on inference for many tasks.  If two DNA sequences align over much of their length, we can infer they share an evolutionary history.  The more overlap, the stronger the inference.  There isn't direct evidence of that history, but lacking other evidence its a reasonable inference to make that the sequences are related.  The alternative is that mutation and evolution happened to create two seperate sequences that were very similar.  This is possible, but requires more steps so seems less plausible.
+
+A frequent feature of inference is **parsimony**: simpler explanations based only on data are better than complex explanations that involve more assumptions, guesswork, or chance occurrences.  New data might eventually support more complex explanations, but until then, simpler is better.  There is actually a whole approach to building phylogenetic trees based on parsimony which will occupy a future chapter.

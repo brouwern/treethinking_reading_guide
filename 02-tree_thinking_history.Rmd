@@ -28,8 +28,8 @@ This section is optional.
 **homologous features**
 **transitional fossils**
 **nested structure**
-**hiearchical structure**
-**consisteny index (CI)**
+**hierarchical structure**
+**consistency index (CI)**
 
 
 ## The emergence of phylogenetic systematics
