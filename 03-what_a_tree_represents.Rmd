@@ -1,10 +1,21 @@
-# "DRAFT -Reading guide Chapter 3: What a phylogenetic tree represents" {#ch1}
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+# "Reading guide Chapter 3: What a phylogenetic tree represents" {#ch3}
+
 
 ## Chapter commentary {-}
 
+1. Some sections can initially be skipped and will be assigned later
+
+Gregory (2008) is an excellent summary of similar ideas.
+
+
 ## Notes
 
-* Key vocabulary are in bold below.  
+* Key vocabulary are in **bold** below.  
 * Vocabulary that is good to be familiar with but is not essential is in in brackets [ ]
 * There are several sections of this chapter that can be skipped. 
 
@@ -12,7 +23,7 @@
 
 After reading this chapter you should
 
-1. Understand how to interpret ancestor-descendent relationships on a tree
+1. Understand how to interpret ancestor-descendant relationships on a tree
 1. Know when two trees have the same **topology**, even if they are drawn differently
 1. Know the names of the major features of trees (**root**, **branch**, **tips**, etc)
 1. Know how to identify **clades** on a tree
@@ -21,77 +32,120 @@ After reading this chapter you should
 
 ## (Introduction)
 
-## Continuity of reproduction from the population to the tree of life
+## "Continuity of reproduction from the population to the tree of life"
 
 * **tips (of phylogenetic tree)**: know how to identify the tips, where they are, what they are for a given tree
+* **lineage splitting**
 * **[pedigree]**
 * **[cladogenesis]**
-* **lineage splittig**
 * **[allopatric divergence]**
 * **[sympatric divergence]**
 
 **Figure2 3.1 to 3.5**: These figures are useful conceptually but you won't need to interpret figures like these
 
-**Figure 3.6:** You need to know that the orientation of the tree doesn't matter
+**Figure 3.6:** You need to know that the orientation of the tree (up or down) doesn't matter
 
 **Figure 3.7:** You need to know that these two ways of drawing a tree are equivalent.
 
-## Asexual organisms
+## "Asexual organisms"
 
-## Tree terminology and conventions
+Read this briefly; its interesting but not key.
 
-* **branches (of phylogenetic tree)**: You should know what branches are, how they are draw, and what differences in branch lengths mean
-* **edges (of phylogenetic tree)**: I will mostly likely not use the term "edges", but it does appear in the literature and I is the formal name used by math folks.  If/when we talk about networks the term edges will become more important.
-* **directed (graph or tree)**: The terms **directed** and **acyclic** aren't very important too understanding phylogenetic trees, but these terms will also come back if/when we talk aboutnetworks.  Phylogenetic trees are **directed** because they represent a historical process and the passage of time.
+## "Tree terminology and conventions"
+
+This stuff is really important.  There likely will be a few basic questions on the test related to labeling or identifying the parts of the tree.
+
+* **branches (of phylogenetic tree)**: You should know what branches are, how they are drawn, and what differences in branch lengths mean.  You should also know the different styles of drawing branches and be able to interpret them.
+* **edges (of phylogenetic tree)**: I will mostly likely *not* use the term "edges", but it does appear in the literature and is the formal name used by math folks.  If/when we talk about **networks** the term edges will become more important.
+* **directed (graph or tree)**: The terms **directed** and **acyclic** aren't very important to understanding phylogenetic trees, but these terms will also come back if/when we talk about networks.  Phylogenetic trees are **directed** because they represent a historical process and the passage of time.
 * **acyclic (graph or tree)**
 * **tips**: You should know what tips are and how they are drawn. I will call the ends of the tree "tips", thought you may encounter other terms in other sources.
 * **[leaves]**
 * **[terminals**]
-* **root**: You should know where the root of a tree is, or if a tree lacks a root (discussed laterin chapter)
-* **Nodes**: You should know where nodes areon a tree and know what they represent.
-* **linneage splitting event**: linneage splitting event result in genetic divergence.
+* **root**: You should know where the root of a tree is, or if a tree lacks a root and is **unrooted** (discussed later in chapter)
+* **Nodes**: You should know where nodes are on a tree and know what they represent.  You should also know how the placement of nodes relates to branch lengths.
+* **lineage splitting event**: lineage splitting event result in genetic divergence.
 * **[internal branches]**
 * **[internodes]**
 * **[external branches]**: This term occurs in the literature but I will usually just refer generically to branches.
-* **clade**: You should be able to identify clades
-* **monophyly**: You should now whether a group is monopylyetic or not.
+* **clade**: You should be able to identify clades, be able to tell if a given set of tips for a clade, etc.
+* **monophyly**: You should now whether a group is monophyletic or not.
 * **sister group**: For a given tip, you should be able to identify its sister taxa.
 * **sister taxa**
 
 **Figure 3.9** is a very good figure for understanding tree terminology.  Tips, root, and branches are the most important terms.
 
-**Figure 3.10** is a classic illustration of a monophyletic groups versus a non-monophyloetic group.  Similar figures can also be found on the internet, eg Wikipedia.
+**Figure 3.10** is a classic illustration of a monophyletic groups versus a non-monphyletic group.  Similar figures can also be found on the internet, eg Wikipedia.
 
-## Tree topology
+## "Tree topology"
 
 * **branching order (of phylogenetic tree)**
-* **topology (of phylogenetic tree)**: You should be able to determine if two trees have the same toplogy or not
+* **topology (of phylogenetic tree)**: You should be able to determine if two trees have the same topology or not
 
-**Figure 3.11** is important for understanding how trees can be roteated without impacting their topology.  
+**Figure 3.11** is important for understanding how trees can be rotated without impacting their topology.  
 
-**Note:** I do not (currently) use the "splits** format referred to on page 46.
+**Note:** I do *not* (currently) use the "splits" format referred to on page 46.
 
-## Different tree styles
+## "Different tree styles"
 
-**Goal**: You should be able to interpret trees in all their shapes and formats.
+**Goal**: You should be able to interpret trees in all their shapes and formats.  Circle trees are becoming increasinly common because they allow compact presentation of lots of data.
 
 * **[diagonal phylogenetic tree]**
 * **[rectangular phylogenetic tree]**
 * **[circle phylogenetic tree]**
 
-**Figure 3.15** is important for seeing how different shapes and formats of trees can all have the same toplogy.
+**Figure 3.15** is important for seeing how different shapes and formats of trees can all have the same topology.
 
-## Merging and pruning
 
-* **[pruning (a phylogenetic tree)]**
-* **[merging (a phylogeneitc tree)]**
+The following trees use bird **order** as the **taxa** on the **tips** of the tree.  These naems are long so I removed the "iformes" that occurs at the end of each name.
+
+```{r, echo = F}
+library(ape)
+data("bird.orders")
+bird.orders$tip.label <- gsub("iformes","-",bird.orders$tip.label)
+```
+
+
+A standard diagonal tree.
+```{r}
+plot(bird.orders, type = "c", use.edge.length = F)
+```
+
+
+
+A standard rectangular tree. Struthioniformes are at the bottom: Can you tell what the sister group to the Struthioniformes is?  Do Struthioniformes, Tinamiformes, and Craciformes make up a clade? How aboutthose three orders PLUS Galliformes and Anseriformes? What about those five orders plut Turniciformes?
+```{r, echo = F}
+plot(bird.orders, type = "p", use.edge.length = F)
+x. <- 26.85
+segments(x0 = x.,y0 = 1,x1 = x.,y1 = 5)
+```
+
+The exact same tree, pointed the other direction.
+```{r}
+plot(bird.orders, type = "p", direction = "l",, use.edge.length = F)
+```
+
+A circle tree representation. All of these trees have different systles but they have the same **branching order** and therefore the same **tology**.
+```{r}
+plot(bird.orders, type = "f", cex = 0.9,use.edge.length = F)
+```
+
+
+## "Merging and pruning" (SKIP)
+
+**This section can be skipped for now, but will be assigned later.**
+
+* **pruning (a phylogenetic tree)**
+* **merging (a phylogeneitc tree)**
 
 The concept of merging will become relevant when we talk about "distance-based" methods of phylogenetic tree reconstruction.  Merging is involved in the algorithm for building these types of trees.
 
-## The time axis
+## "The time axis" (SKIP)
 
-**[chronogram]**
-**[cladogram]**
+**This section can be skipped for now, but will be assigned later.**
+
+**chronogram**
+**cladogram**
 
 Fossils are very important for establishing dates.  We won't spend much time talking about fossils; instead, we will talk about the use of molecular clock methods.  These methods, however, have important limitations.  The best way to add dates to tree is to use fossils.
 
@@ -101,19 +155,21 @@ Quental and Marshall.  2010.  Diversity dynamics: molecular phylogenies need the
 
 
 
-## Branch lengths & evolutionary rate
+## "Branch lengths & evolutionary rate" (SKIP)
 
 **branch lengths (of phylogenetic tree**)
 **[phylograms]**
 
-Branch lengths and how they are estiamted will be a very important consideration when we begin building phylogenies using mathematical models such as distance-based methods and maximum likelihood. In contrast, the  parsimony methods some people learn in intro biology and evoution classes preclude consideration of branch lengths.
+Branch lengths and how they are estimated will be a very important consideration when we begin building phylogenies using mathematical models such as distance-based methods and maximum likelihood. In contrast, the  parsimony methods some people learn in intro biology and evolution classes preclude consideration of branch lengths.
 
 
-## Communicating phylogenetic uncertainty
+## "Communicating phylogenetic uncertainty" (SKIP)
+
+**This section can be skipped for now, but will be assigned later.**
 
 **[binary tree]**
-**[ancestral linneage]**
-**[descendant linneage]**
+**[ancestral lineage]**
+**[descendant lineage]**
 **dichotomous tree**
 **[fully resolved phylogenetic tree]**
 **polytomy**
@@ -124,7 +180,9 @@ Branch lengths and how they are estiamted will be a very important consideration
 **strict consensus tree**
 
 
-### (Consensus trees)
+### "Consensus trees" (SKIP)
+
+**This section can be skipped for now, but will be assigned later.**
 
 The section on consensus trees is important for being able to interpret published trees.  Looking at a tree you should be able to identify if there are polytomies, know what they imply, and determine from information in the paper why it is there.
 
@@ -135,24 +193,27 @@ If time allows we will discuss how consensus trees are built; several key types 
 Sul and Williams.  2011. Big cat phylogenies, consensus trees, and computational thinking.  Journal of Computational Biology
 
 
-### (Characterizing uncertainty)
+### "Characterizing uncertainty" (SKIP)
 
-**boostrap percentages**
-**boostrap scores**
+**This section can be skipped for now, but will be assigned later.**
+
+**bootstrap percentages**
+**bootstrap scores**
 **posterior probabilities**
 **[clade credibilities**]
 
 This section is very important.  We will discuss the computational details of bootstrapping and the interpretation of uncertainty measures.
 
 
-## Unrooted trees
+## "Unrooted trees"
 
-**[rooted tree]**
-**[unrooted tree]**
+**This section can be skipped for now, but will be assigned later.**
+
+**rooted tree**
+**unrooted tree**
 **bipartitions**
 **outgroup**
 **molecular clock**
-
 
 
 ## Tree-to-tree distances
@@ -163,9 +224,13 @@ This section is optional.
 
 ### Intro bio
 
+The following questions are mostly relevant for intro biology students, but may be useful for computational biology students to review.
+
 1, 3, 4, 5, 7, 10, 11, 13
 
 ### Computational biology
+
+These questions are highly relevant to computational biology students.
 
 17, 18, 19
 

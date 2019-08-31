@@ -1,4 +1,4 @@
-# "DRAFT - Reading guide Chapter 2: Tree thinking & its importance in the development of evolutionary thought" {#ch1}
+# "DRAFT - Reading guide Chapter 2: Tree thinking & its importance in the development of evolutionary thought" {#ch2}
 
 ## Chapter commentary {-}
 
@@ -12,46 +12,52 @@ No figures or tables in this chapter require particular attention.
 
 ## (Introduction)
 
-**ladder thinking**
+**[ladder thinking]**
 
-## Before Charles Darwin
+## "Before Charles Darwin" (OPTIONAL)
 
 This section is optional.
 
-## Charles Darwin's role in the development of tree thinking
+## "Charles Darwin's role in the development of tree thinking"
 
-**common ancestry**
+**[common ancestry]**
 
-## Evidence for evolution and common ancestry
+## "Evidence for evolution and common ancestry"
 
 **separate ancestry**
-**homologous features**
-**transitional fossils**
-**nested structure**
-**hierarchical structure**
-**consistency index (CI)**
+**homologous features**: This is a very important concept, though we will primarily think about it in terms of DNA, protein, etc.
+**[transitional fossils'**
+**nested structure**: A great analogy for understnading nested structure, aka "nestedness", are Russina dolls which all fit inside each other.  See https://en.wikipedia.org/wiki/Matryoshka_doll
+**hierarchical structure**: In human society hiearchies are common, eg the leadership structure of the military, feudal systems with kinds, barons, etc.
+**Consistency index (CI)**: This will be elaborated on in future chapters.
+
+Figure 2.4 provides a visual explanation of **homology**.  In this course we will typically talk about homologies at the macromolecular sequence level.  Thinking in terms of homology at this molecular level might be a bit trickier. 
 
 
-## The emergence of phylogenetic systematics
+## "The emergence of phylogenetic systematics"
 
 **common descent**
-**phyletic series**
-**phylogenetic systematics**
+**[phyletic series]**
+**[phylogenetic systematics]**
 
 
 
-## Vestiges of ladder thinking in the popular understanding of evolution
+## "Vestiges of ladder thinking in the popular understanding of evolution"
 
 
 ## Chapter 2 Quiz
 
-General biology questions:
+### General biology questions:
+
+The following questions are mostly relevant for intro biology students, but may be useful for computational biology students to review.
+
 1, 2, 10, 12, 13, 14
 
-Computational biology questions:
+### Computational biology questions:
+
 9
 
-Interesting questions:
+### Interesting questions:
 3, 6, 7, 15
 
 ## Further reading

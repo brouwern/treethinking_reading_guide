@@ -1,0 +1,6 @@
+# "Creating and rendering this book" {#ch98}
+
+```{r, eval = F}
+bookdown::render_book("index.Rmd", "bookdown::gitbook")
+```
+

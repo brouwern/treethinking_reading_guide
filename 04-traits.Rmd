@@ -1,4 +1,4 @@
-# "DRAFT - Reading guide Chapter 4: Trait Evolution" {#ch1}
+# "DRAFT - Reading guide Chapter 4: Trait Evolution" {#ch4}
 
 ## Chapter commentary {-}
 
@@ -23,7 +23,7 @@ I will usually use the term "trait", though "characters" is probably more common
 **[reverse mutation]**
 **[heritability]**
 
-*"Geographic location is a heritable trait"* (page 79): This is not something I emphasize.  
+*"Geographic location is a heritable trait"* (page 79): This is *not* something I emphasize.  
 
 
 ## Trait evolution in a branching lineage
