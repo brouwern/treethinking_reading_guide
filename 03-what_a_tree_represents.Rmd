@@ -10,7 +10,9 @@ editor_options:
 
 1. Some sections can initially be skipped and will be assigned later
 
-Gregory (2008) is an excellent summary of similar ideas.
+Gregory (2008) is an excellent and much more in-depth review of similar ideas.  If you struggle with reading trees I recommend reading it.  I have annotated copy online where I have highlighted the most important sections and provided commentary.  The paper and figures are in seperate files and can be found here: https://drive.google.com/open?id=117qDPPLBhWrpi596LQMoVgCkNZQX5nye
+
+
 
 
 ## Notes
