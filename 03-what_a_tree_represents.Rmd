@@ -75,7 +75,7 @@ This stuff is really important.  There likely will be a few basic questions on t
 * **sister group**: For a given tip, you should be able to identify its sister taxa.
 * **sister taxa**
 
-**Figure 3.9** is a very good figure for understanding tree terminology.  Tips, root, and branches are the most important terms.
+**Figure 3.9** is a very good figure for understanding tree terminology.  Tips, root, and branches are the most important terms.\n
 
 **Figure 3.10** is a classic illustration of a monophyletic groups versus a non-monphyletic group.  Similar figures can also be found on the internet, eg Wikipedia.
 
@@ -84,7 +84,7 @@ This stuff is really important.  There likely will be a few basic questions on t
 * **branching order (of phylogenetic tree)**
 * **topology (of phylogenetic tree)**: You should be able to determine if two trees have the same topology or not
 
-**Figure 3.11** is important for understanding how trees can be rotated without impacting their topology.  
+**Figure 3.11** is important for understanding how trees can be rotated without impacting their topology. \n 
 
 **Note:** I do *not* (currently) use the "splits" format referred to on page 46.
 
@@ -96,7 +96,7 @@ This stuff is really important.  There likely will be a few basic questions on t
 * **[rectangular phylogenetic tree]**
 * **[circle phylogenetic tree]**
 
-**Figure 3.15** is important for seeing how different shapes and formats of trees can all have the same topology.
+**Figure 3.15** is important for seeing how different shapes and formats of trees can all have the same topology. \n
 
 
 The following trees use bird **order** as the **taxa** on the **tips** of the tree.  These naems are long so I removed the "iformes" that occurs at the end of each name.
@@ -116,6 +116,7 @@ plot(bird.orders, type = "c", use.edge.length = F)
 
 
 A standard rectangular tree. Struthioniformes are at the bottom: Can you tell what the sister group to the Struthioniformes is?  Do Struthioniformes, Tinamiformes, and Craciformes make up a clade? How aboutthose three orders PLUS Galliformes and Anseriformes? What about those five orders plut Turniciformes?
+
 ```{r, echo = F}
 plot(bird.orders, type = "p", use.edge.length = F)
 x. <- 26.85
@@ -146,8 +147,8 @@ The concept of merging will become relevant when we talk about "distance-based" 
 
 **This section can be skipped for now, but will be assigned later.**
 
-**chronogram**
-**cladogram**
+* **chronogram**: you'll need to know what the added feature of a chronogram is versus a regular cladogram
+* **cladogram**
 
 Fossils are very important for establishing dates.  We won't spend much time talking about fossils; instead, we will talk about the use of molecular clock methods.  These methods, however, have important limitations.  The best way to add dates to tree is to use fossils.
 
@@ -159,8 +160,8 @@ Quental and Marshall.  2010.  Diversity dynamics: molecular phylogenies need the
 
 ## "Branch lengths & evolutionary rate" (SKIP)
 
-**branch lengths (of phylogenetic tree**)
-**[phylograms]**
+* **branch lengths (of phylogenetic tree**): You will need to know what branch lengths represent; eventually you'll learn how they are calcualted, but that will be a while.
+* **[phylograms]**
 
 Branch lengths and how they are estimated will be a very important consideration when we begin building phylogenies using mathematical models such as distance-based methods and maximum likelihood. In contrast, the  parsimony methods some people learn in intro biology and evolution classes preclude consideration of branch lengths.
 
@@ -169,17 +170,17 @@ Branch lengths and how they are estimated will be a very important consideration
 
 **This section can be skipped for now, but will be assigned later.**
 
-**[binary tree]**
-**[ancestral lineage]**
-**[descendant lineage]**
-**dichotomous tree**
-**[fully resolved phylogenetic tree]**
-**polytomy**
-**[hard polytomy]**
-**[soft polytomy]**
-**consensus tree**
-**[input tree]**
-**strict consensus tree**
+* **[binary tree]**
+* **[ancestral lineage]**
+* **[descendant lineage]**
+* **dichotomous tree**
+* **[fully resolved phylogenetic tree]**
+* **polytomy**: You will need to know a polytomy when one occurs in a tree and what aspects of the data or analysis cause it to be there.  We will ge into the details later.
+* **[hard polytomy]**
+* **[soft polytomy]**
+* **consensus tree**: I hope to discuss how consensus trees are built but we'll see how things go.  If you see one in a paper you need to know how it is different from a regular tree, or what its a "consensus" of.
+* **[input tree]**
+* **strict consensus tree**
 
 
 ### "Consensus trees" (SKIP)
@@ -199,10 +200,10 @@ Sul and Williams.  2011. Big cat phylogenies, consensus trees, and computational
 
 **This section can be skipped for now, but will be assigned later.**
 
-**bootstrap percentages**
-**bootstrap scores**
-**posterior probabilities**
-**[clade credibilities**]
+* **bootstrap percentages**
+* **bootstrap scores**
+* **posterior probabilities**
+* **[clade credibilities**]
 
 This section is very important.  We will discuss the computational details of bootstrapping and the interpretation of uncertainty measures.
 
@@ -211,11 +212,11 @@ This section is very important.  We will discuss the computational details of bo
 
 **This section can be skipped for now, but will be assigned later.**
 
-**rooted tree**
-**unrooted tree**
-**bipartitions**
-**outgroup**
-**molecular clock**
+* **rooted tree**
+* **unrooted tree**
+* **bipartitions**
+* **outgroup**
+* **molecular clock**
 
 
 ## Tree-to-tree distances

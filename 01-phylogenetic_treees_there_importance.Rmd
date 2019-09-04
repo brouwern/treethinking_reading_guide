@@ -64,7 +64,17 @@ On page xvi Baum and Smith say that evolutionary trees are "not linear but branc
 **traits**
 **[Great Chain of Being]**
 
-This book talks about DNA sequences and proteins but also a lot about **morphological traits**.  As will be discussed later in the book, morphological traits often have two **states**: the presence or absence of something like sexual reproduction or live birth.  **Macromolecular sequences**, however, are traits that always have at multiple different states: DNA has 4 bases, RNA has 4 bases, and there are 20 amino acids.  A molecular sequence trait could be the first DNA base after a start codon, which could be one of four bases, or the amino acid after the start codon, which is a trait with 20 different possibilities.  
+This book talks about DNA sequences and proteins, but also a lot about **morphological traits**.  As will be discussed later in the book, morphological traits often have two **states**: the presence or absence of something like sexual reproduction, a tail, or live birth.  For example, most plants reproduce sexually, but some asexually, some primates have tails (monkeys) while others don't (humans), and most mammals reproduce via live birth, but some don't (platypus).  
+
+In the case of tails, the **trait** is the tail, and the two **states** are 1: tail present, 2: tail absent.  In the case of live birth in mammals, that trait is "how are offspring brough into the world" and the states are 1: from a uterus in the world via a birth canal, 2: in an egg.
+
+There can be more than two states for morphological traits, but usually we only deal with two in intro bio classes.  **Macromolecular sequences**, however, are traits that always have at multiple different states: DNA has 4 bases, RNA has 4 bases, and there are 20 amino acids.  A molecular sequence trait could be the first DNA base after a start codon, which could be one of four bases, or the amino acid after the start codon, which is a trait with 20 different possibilities.  
+
+So, in the case of DNA, that trait is the position in the gene (here, bp 4, the first 3 being part of the start codon).  The states are 1: A, 2: T, 3: C, 4: G.  In the case of protein, the trait is the position in the amino acid is the trait, and there are 20 different states: A, T, F, ... etc.
+
+THought question: if there are 100 amino acids in a polypeptide, how many traits are there?
+
+The different between a "trait" and a "state of a trait" is a common source of confusion.  I'll try to be clear about it when I discuss it.
 
 ## "From individuals to populations to species"
 
@@ -75,14 +85,14 @@ We typically think in terms of common ancestors as species. We can also think of
 
 ## "Visualizing & modeling how traits evolve"
 
-**homologous trait**
-**analogous trait**
+* **homologous trait**
+* **analogous trait**
 
 You should be able to characterize traits - especially macromolecular traits - as either homologous or analogous. 
 
 See if you can fill in the blanks here: "________, in biology, similarity of function and superficial resemblance of structures that have different origins. For example, the wings of a fly, a moth, and a bird are _______ because they developed independently as adaptations to a common function—flying."  And "______, in biology, similarity of the structure, physiology, or development of different species of organisms based upon their descent from a common evolutionary ancestor." 
 
-See the answers at https://www.britannica.com/science/homology-evolution and https://www.britannica.com/science/analogy-evolution and 
+See the answers at https://www.britannica.com/science/homology-evolution and \n https://www.britannica.com/science/analogy-evolution and \n
 
 For definitions of homology and related terms see: http://pevsnerlab.kennedykrieger.org/wiley/appendix.htm#H
 
@@ -90,13 +100,13 @@ For macromolecular sequences there are two types of homology: orthology and paro
 
 ## "Understanding what it means to be related"
 
-**taxa**
-**taxon**
+* **taxa**
+* **taxon**
 
 
 ## "Organizing knowledge of biological diversity"
 
-**[biological diversity]**
+* **[biological diversity]**
 
 
 ### Related references
@@ -105,27 +115,27 @@ Below are references related to how phylogenetic trees can be used to organize i
 
 #### Parasite phylogenetics and diversity
 
-Waters et al 1993.  The Phylogeny of malaria: A useful study. Parasitology Today
+Waters et al 1993.  The Phylogeny of malaria: A useful study. Parasitology Today \n
 
-Brooks & Hoberg. 2001. Parasite systematics in the 21st century: opportunities and obstacles.  Trends in Parasitology.
+Brooks & Hoberg. 2001. Parasite systematics in the 21st century: opportunities and obstacles.  Trends in Parasitology. \n
 
-de Meeus and Renaud.  2002. Parasites within the new phylogeny of eukaryotes.  Trends in Parasitology. 
+de Meeus and Renaud.  2002. Parasites within the new phylogeny of eukaryotes.  Trends in Parasitology. \n
 
-Jalovecka et al 2019. Policy, phylogeny, and the parasite *Babesia* Life Cycle – When Phylogeny Meets Biology.  Tends in Parasitology.
+Jalovecka et al 2019. Policy, phylogeny, and the parasite *Babesia* Life Cycle – When Phylogeny Meets Biology.  Tends in Parasitology. \n
 
 
 ## "Reconstructing history"
 
-Phylogenetics can be used to reconstruct the evolutionary history of, among other things, organisms, groups of organisms and genes.
+Phylogenetics can be used to reconstruct the evolutionary history of, among other things, organisms, groups of organisms and genes. \n
 
 ### Related references 
 
 Below are references to papers that use phylogenies to reconstruct historical events.  Read over these to get a sense for the scope and applications of phylogenetics.  These references are *not* formatted properly.
 
 #### Epidemiology: The SARS epidemic
-He et a. 2004.  Molecular Evolution of the SARS Coronavirus During the Course of the SARS Epidemic in China. Science
+He et a. 2004.  Molecular Evolution of the SARS Coronavirus During the Course of the SARS Epidemic in China. Science \n
 
-Lau et al 2009.  Severe acute respiratory syndrome coronavirus-like virus in Chinese horseshoe bats.  PNAS
+Lau et al 2009.  Severe acute respiratory syndrome coronavirus-like virus in Chinese horseshoe bats.  PNAS \n
 
 
 #### Protein evolution
@@ -136,26 +146,26 @@ Harns and Thoron. 2013  Evolutionary biochemistry: revealing the historical and 
 #### Origin of HIV
 
 Holmes 2001.  On the origin and evolution of the human
-immunodeficiency virus (HIV).  Biological Reviews.
+immunodeficiency virus (HIV).  Biological Reviews. \n
 
 Sharp and Hahn 2010. The evolution of HIV-1 and the origin of AIDS.  PRSB.
 
 #### Criminology: Likely HIV transmission by a dentist
 
-Hillis and Huelsenbeck.  1994. Support for dental HIV transmission.  Nature
+Hillis and Huelsenbeck.  1994. Support for dental HIV transmission.  Nature \n
 
 
 #### Criminology: Identifying criminals
 
-Scadutoa et al.  2010. Source identification in two criminal cases using phylogenetic analysis of HIV-1 DNA sequences.  PNAS
+Scadutoa et al.  2010. Source identification in two criminal cases using phylogenetic analysis of HIV-1 DNA sequences.  PNAS \n
 
 Metzker et al 2002.  Molecular evidence of HIV-1 transmission in a criminal case. PNAS
 
 
 ## "Tree thinking and biological literacy"
 
-**inference**
-**scientific inference**
+* **inference**
+* **scientific inference**
 
 A standard dictionary definition of **inference** is "a conclusion reached on the basis of evidence and reasoning."  Often it involves moving from a set of particular observations to make more general conclusions about how the world works.  For example, say that in a clinical trial with 100 patients, a drug reduces the risk of heart attack in by 10%.  What the experiment has directly shown is only that when these 100 patients received the drug at the particular time and place the experiment was conducted, risk went down by 10%.  That's all.  However, if the patients are reasonably representative of a larger population, then we can infer that most patients should improve by 10%.  This is a bit of a leap of faith and requires a lot of assumptions, but frequently science operates with limited times frames and budgets, and so we have to make inference based on the usually limited data at hand.
 

@@ -12,7 +12,7 @@ No figures or tables in this chapter require particular attention.
 
 ## (Introduction)
 
-**[ladder thinking]**
+* **[ladder thinking]**
 
 ## "Before Charles Darwin" (OPTIONAL)
 
@@ -24,21 +24,21 @@ This section is optional.
 
 ## "Evidence for evolution and common ancestry"
 
-**separate ancestry**
-**homologous features**: This is a very important concept, though we will primarily think about it in terms of DNA, protein, etc.
-**[transitional fossils'**
-**nested structure**: A great analogy for understnading nested structure, aka "nestedness", are Russina dolls which all fit inside each other.  See https://en.wikipedia.org/wiki/Matryoshka_doll
-**hierarchical structure**: In human society hiearchies are common, eg the leadership structure of the military, feudal systems with kinds, barons, etc.
-**Consistency index (CI)**: This will be elaborated on in future chapters.
+* **separate ancestry**
+* **homologous features**: This is a very important concept, though we will primarily think about it in terms of DNA, protein, etc.
+* **[transitional fossils'**
+* **nested structure**: A great analogy for understnading nested structure, aka "nestedness", are Russina dolls which all fit inside each other.  See https://en.wikipedia.org/wiki/Matryoshka_doll
+* **hierarchical structure**: In human society hiearchies are common, eg the leadership structure of the military, feudal systems with kinds, barons, etc.
+* **Consistency index (CI)**: This will be elaborated on in future chapters.
 
 Figure 2.4 provides a visual explanation of **homology**.  In this course we will typically talk about homologies at the macromolecular sequence level.  Thinking in terms of homology at this molecular level might be a bit trickier. 
 
 
 ## "The emergence of phylogenetic systematics"
 
-**common descent**
-**[phyletic series]**
-**[phylogenetic systematics]**
+* **common descent**
+* **[phyletic series]**
+* **[phylogenetic systematics]**
 
 
 
@@ -64,8 +64,8 @@ The following questions are mostly relevant for intro biology students, but may 
 
 Similar ideas are discussed in these papers:
 
-Baum et al. The tree-thinking challenge.  Science
+Baum et al. The tree-thinking challenge.  Science \n
 
-Baum and Offner.  2008.  Phylogenics & tree-thinking.  American Biology Teacher
+Baum and Offner.  2008.  Phylogenics & tree-thinking.  American Biology Teacher. \n
 
 
