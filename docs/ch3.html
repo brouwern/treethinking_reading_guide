@@ -24,7 +24,7 @@
 <meta name="author" content="Nathan Brouwer" />
 
 
-<meta name="date" content="2019-09-04" />
+<meta name="date" content="2019-09-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -211,7 +211,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="4.9.2" data-path="ch4.html"><a href="ch4.html#computational-biology-1"><i class="fa fa-check"></i><b>4.9.2</b> Computational biology</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="ch98.html"><a href="ch98.html"><i class="fa fa-check"></i><b>5</b> “Creating and rendering this book”</a></li>
+<li class="chapter" data-level="5" data-path="ch6.html"><a href="ch6.html"><i class="fa fa-check"></i><b>5</b> “Reading guide Chapter 6: Gene trees and species trees”</a><ul>
+<li class="chapter" data-level="" data-path="ch6.html"><a href="ch6.html#chapter-commentary-4"><i class="fa fa-check"></i>Chapter commentary</a></li>
+<li class="chapter" data-level="5.1" data-path="ch6.html"><a href="ch6.html#gene-duplication-pg-151"><i class="fa fa-check"></i><b>5.1</b> Gene duplication (pg 151)</a></li>
+<li class="chapter" data-level="5.2" data-path="ch6.html"><a href="ch6.html#further-reading-4"><i class="fa fa-check"></i><b>5.2</b> Further reading</a></li>
+<li class="chapter" data-level="5.3" data-path="ch6.html"><a href="ch6.html#chapter-quiz-1"><i class="fa fa-check"></i><b>5.3</b> Chapter quiz</a><ul>
+<li class="chapter" data-level="5.3.1" data-path="ch6.html"><a href="ch6.html#intro-bio-2"><i class="fa fa-check"></i><b>5.3.1</b> Intro bio</a></li>
+<li class="chapter" data-level="5.3.2" data-path="ch6.html"><a href="ch6.html#computational-biology-2"><i class="fa fa-check"></i><b>5.3.2</b> Computational biology</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="ch98.html"><a href="ch98.html"><i class="fa fa-check"></i><b>6</b> “Creating and rendering this book”</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 </ul>
 
@@ -326,15 +335,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>The following trees use bird <strong>order</strong> as the <strong>taxa</strong> on the <strong>tips</strong> of the tree. These naems are long so I removed the “iformes” that occurs at the end of each name.</p>
 <p>A standard diagonal tree.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">plot</span>(bird.orders, <span class="dt">type =</span> <span class="st">&quot;c&quot;</span>, <span class="dt">use.edge.length =</span> F)</a></code></pre></div>
-<p><img src="TTguide_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p><img src="TTguide_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 <p>A standard rectangular tree. Struthioniformes are at the bottom: Can you tell what the sister group to the Struthioniformes is? Do Struthioniformes, Tinamiformes, and Craciformes make up a clade? How aboutthose three orders PLUS Galliformes and Anseriformes? What about those five orders plut Turniciformes?</p>
-<p><img src="TTguide_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p><img src="TTguide_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
 <p>The exact same tree, pointed the other direction.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1"><span class="kw">plot</span>(bird.orders, <span class="dt">type =</span> <span class="st">&quot;p&quot;</span>, <span class="dt">direction =</span> <span class="st">&quot;l&quot;</span>,, <span class="dt">use.edge.length =</span> F)</a></code></pre></div>
-<p><img src="TTguide_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p><img src="TTguide_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 <p>A circle tree representation. All of these trees have different systles but they have the same <strong>branching order</strong> and therefore the same <strong>tology</strong>.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1"><span class="kw">plot</span>(bird.orders, <span class="dt">type =</span> <span class="st">&quot;f&quot;</span>, <span class="dt">cex =</span> <span class="fl">0.9</span>,<span class="dt">use.edge.length =</span> F)</a></code></pre></div>
-<p><img src="TTguide_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p><img src="TTguide_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
 </div>
 <div id="merging-and-pruning-skip" class="section level2">
 <h2><span class="header-section-number">3.9</span> “Merging and pruning” (SKIP)</h2>
