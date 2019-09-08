@@ -1,0 +1,87 @@
+# "Reading guide Chapter 6: Gene trees and species trees" {#ch6}
+
+## Chapter commentary {-}
+
+NOTE: only part of this chapter has been assigned as of 9/7/2019
+
+## Gene duplication (pg 151)
+
+NOTE: the 1st paragraph of this section refers to previous parts of the chapter which we haven't read as of 9/7/2019, so don't worry about the unknown terms
+
+* **recombination**: know generally what this is
+* **discordant gene tree**: skip
+* **gene duplication**: important concept, though we aren't worried in this course about the mechanisms.  Cross reference this with the concept of pseudo genes.
+* **gene copy extinction**: skip
+* **whole genome duplication**: need to know what this is, but we aren't concerned with the mechanisms.  Need to know that this creates duplicate copies of all genes in the genome, which evolution can then act on in interesting ways.  Cross reference this with the concept of pseudo genes.
+* **polyploidy**: genomes larger than 2n; usually in plants but can occur in various species. Need to know what this is but we aren't concerned with the mechanisms
+* **polyploid**: an organism with a genome larger than 2n.
+* **2n**: diploid organism whose gametes contain a single copy of the genome
+* **segemental duplication**: I don't use this term
+* **gene families**: important concept. Many books talk about the globin gene family (hemoglobin, myoglobin).  Shroom is a gene family.
+* **diverged function**
+* **gene trees**: phylogenetic tree focused on the history of and relationship between genes, not necessarily species.  If misinterpreted gene trees can appear to present an incorrect species phylogeny.
+* **haploid genome**: 1n; exists in gametes
+* **ancestral population**
+* **diploid**: 2n; exists in somatic cells.  There are two copies of each gene, there fore two alleles, thought they are possibly the same allele
+
+**lineage splitting**: normally we think about lineage splitting in terms of a literal population being split, like a population of monkey which gets split into two populations by the formation of a new river that cuts through their habitat, or when members of a population disperse to a new location like an island.  When a lineage gets split, gene flow is typically reduced or becomes zero, which creates the opportunity for genetic divergence and possibly even speciation.  The process of a gene getting duplicated is analogous, though the idea of a population doesn't translate. What does happen is that duplication is typically followed by divergence in the sequence of the two copies of the gene as different random mutations occur. If mutations result in altered function then natural selection can begin to act and drive further divergence.
+
+* **fixed**
+* **more recent common ancestor**: the concept of the ancestor of an individual can be extended to the ancestral state or species of a current species. Similarly, there is an ancestral state (sequence) or ancestor of a current gene.
+
+**population lineage split** (pg 152): this phrase is a bit awkward.  What their saying here is: image a gene duplicates within the genome of a species.  That duplication starts of in one individual, then spreads, then eventually becomes fixed so that all individuals in the species have two copies of then gene. *Then*, something splits up the population into two populations, setting the stage for speciation.
+
+
+**Figure 6.9** is important to understand \n
+**Figure 6.10** is important
+
+
+
+* **homologs**: very important concept. Contrast with analog. There are two types of homologs: paralogs and orthologs
+* **ortholog / orthologous gene**: a type of homolog that results due to speciation / population splitting events.  Orthologs can be used to build species trees.
+* **paralog / paralogous gene**: a type of homolog that results due to gene duplication within a species.  "Para" means "along side", so two paralogs are genes that exist along side each other within the same genome.  Paralogs can be problematic for constructing species trees.
+
+[Wikipedia](https://en.wikipedia.org/wiki/Sequence_homology) has a pretty good section on sequence homology and paralogs versus orthologs, using histone genes as an example.  Humans and chimps both have two histone H1 genes: H1.1 and H1.2. \n
+
+Baum and Smith note that "the identification of orthologs is often an important step in functional genetic studies" (pg 154).  Molecular biologists often to know what parts of a protein are most concerned because these are likely to be important in function.  Orthologs occurring in two different species are likely to have similar functions.  Comparing orthologs and looking for parts of the sequences that haven't changed provide clues to where important functional sites might be.  In contrast, paralogs often diverge in their function.  This is most obvious within an organism.  When doing comparisons across species there is a risk of comparisons between paralogs that have diverged function.
+
+```{r, echo = F, eval = F}
+ # We'll call the humans genes hH1.1 and hH1.2, and the chimp genese cH1.1 and cH1.2.  If you were to align all four genes there is significant overlap in their sequences.  The sequence of hH1.1 (human H1.1) and cH1.1 (chimp H1.1) are similar to each other.
+```
+
+
+```{r,eval = F, echo = F}
+# It can be hard to keep track of what's going on with homologs and paralogs, and to understand how they are desrcibed.  THe following example might help:  **next generation DNA sequencing** has become so advanced that we can take **environmental samples** such as a bucket of sea water, a scoop of soil, or fecal sample and extract DNA from it. This DNA will be a mix of genomes of bacteria, viruses, small organisms, and also random cells from any large organisms that fell off while they were moving through the sample (this applies to water and soil - hopefully not fecal samples).  All the DNA that occurs within a habitat, whether it is dirt or the human gut, is called the [**metagenome**.](https://en.wikipedia.org/wiki/Metagenomics).  Seqencing of samples like this often targets  [**DNA barcodes**](https://en.wikipedia.org/wiki/DNA_barcoding), which are highly conserved parts of genomes in terms of both sequence and function, such as rRNA or cytochrome c, that occur accross the tree of life.  Sequencing these barcodes allow us to identify all of the organisms in the environmental sample.  Since these genese are conserved accross the tree of life they are all orthologs.  For example, [cytochrome c](https://en.wikipedia.org/wiki/Cytochrome_c) is mitochondrial gene and has the same function in all organisms with mitchondria, and all organisms can trace their version of cytochrome c back to the first eukaryotic organisms. While there is enough variation in cytochorme c that allows us to tell the difference between species, all of that variation occurred due to divergence after speciation events.  So when we get back the sequences from an environmental sample, all the versions of cytochrome c we see were created due to sequence divergence after speciation events.
+# 
+# Now let's say that instead of sequencing a **DNA barcode** we sequenced 
+
+# This approach is often called **eDNA** analysis for "environmental DNA."  A similar process occurs when we sample DNA from different parts of an organism, such as the gut.   
+
+
+```
+
+
+
+
+ 
+
+
+
+
+## Further reading
+
+There's a short article about orthologs versus paralogs at [sciencing.com](https://sciencing.com/difference-between-orthologous-paralogous-genes-18612.html)
+
+[Bitesizebio.com](https://bitesizebio.com/26762/homology-terminology-never-say-wrong-word/) also has  short article.
+
+
+## Chapter quiz
+
+### Intro bio
+
+
+
+### Computational biology
+
+
+
